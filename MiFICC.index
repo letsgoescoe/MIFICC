@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="file:///C:/Users/descoe/AppData/Local/atom/app-1.17.2/MiFICC.css">
+<script src="file:///C:/Users/descoe/AppData/Local/atom/app-1.17.2/MiFICC.js"></script>
+
+
+<title>MiFICC.org</title>
+
+</head>
+<h1>
+  <div>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+
+<form class="modal-content animate" action="/action_page.php">
+  <div class="imgcontainer">
+    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    <img src="C:\Users\descoe\Desktop\kandylogo.PNG" alt="MiFICC" class="MiFICC">
+  </div>
+
+  <div class="container"><div><font color="#00008B"></font</div><h2
+    <label><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <input type="checkbox" checked="checked"> Remember me
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+<div><font color="#00008B"></font</div>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+
+  </div>
+  <div>
+  </div>
+</form>
+</div>
+</h2>
+<ul>
+  <li><a href="file:///C:/Users/descoe/AppData/Local/atom/app-1.17.2/MiFICC.index#C:\Users\descoe\Desktop\MiFICCabout.html">Home</a></li>
+  <li><a href="file:///C:/Users/descoe/AppData/Local/atom/app-1.17.2/MiFICCabout.html">About</a></li>
+  <li><a href="file:///C:/Users/descoe/AppData/Local/atom/app-1.17.2/MiFICCcontact.html">Contact</a></li>
+    <li><a href="file:///C:/Users/descoe/AppData/Local/atom/app-1.17.2/MiFICCevent.html">Events</a></li>
+      <li><a href="file:///C:/Users/descoe/AppData/Local/atom/app-1.17.2/MiFICCjoin.html">Join</a></li>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<!--<li><a class="active" href="#home">Join!</a></li>-->
+
+
+
+</h1>
+</ul>
+
+<h2>
+
+<img src="C:\Users\descoe\Desktop\kandylogo.PNG" alt="MiFICC logo" align="middle" style="width:604 px;height:700px;">
+<div><font color="white">We collaborate, educate and lead security best practices. We can help!</div>
+</h2>
+<h3>
+
+<div><font color="#00008B">Cyber security professionals protecting the State of Michigan infrastructure</fontDedicated </div>
+  <h4 class="w3-center">We provide assistance with</h4>
+
+<div class="w3-content w3-section" style="max-width:500px">
+  <img class="mySlides" src="C:\Users\descoe\Desktop\risk assessment.jpg" style="width:100%">
+  <img class="mySlides" src="C:\Users\descoe\Desktop\policies procedures.jpg" style="width:100%">
+    <img class="mySlides" src="C:\Users\descoe\Desktop\cybersivil.jpg" style="width:100%">
+</div>
+</h3>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--Javascript for img carousel-->
+<style>
+.mySlides {display:none;}
+</style>
+<body>
+
+
+
+
+
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+
+
+
+
+
+<h4>
+
+<div><font size="5"color="#00008B"></font</div><h6
+   class="w3-center"><font size="5"color="#00008B">Why Protect your infrastrusture</h6>
+
+</h4
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none}
+.demo {cursor:pointer}
+</style>
+<body>
+
+<div class="w3-container">
+
+</div>
+
+
+<!--<p align="center"><font color="#00008B"> Prevent cyber attacks </font</div></div><p align="center"><font color="#00008B">Create a safe cyber environment</font</div>
+</div>
+<p align="right"><font color="#00008B">There are always new vulnerabilities</font</div>
+<ul>-->
+
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="C:\Users\descoe\Desktop\data breach.jpg" style="width:100%" onclick="currentDiv(1)">
+    </div><div>
+
+    <div class="w3-col s4">
+      <img class="demo w3-opacity w3-hover-opacity-off" src="C:\Users\descoe\Desktop\safe.jpg" style="width:100%" onclick="currentDiv(2)">
+    </div><div>
+
+    <div class="w3-col s4">
+
+      <img class="demo w3-opacity w3-hover-opacity-off" src="C:\Users\descoe\Desktop\ransomware.jpg" style="width:100%" onclick="currentDiv(3)">
+    </div>
+
+
+
+</ul>
+
+
+
+</body>
+
+<h7></h7>
+</html>
